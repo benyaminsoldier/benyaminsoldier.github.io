@@ -1,0 +1,152 @@
+/*
+Style File for corcuencas
+Daniel Benjumea Villarraga ID: 441475.
+Both files were added to the html file but this file goes after the main style file adding or modifying some details.
+*/
+
+/*-------------------------------------------- Common Styles ------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@800&display=swap');
+:root{
+    --blue: #3f48cc;
+    --titlefont:'Kanit', sans-serif;
+    --pfont:'Josefin Sans', sans-serif;  
+}
+
+/*
+Job description. The display keeps being flex-wrap.
+*/
+#bckgrnd{
+    display: flex;
+    justify-content:center;
+    height: 10vw;
+    background-image: url(../images/bckgrnd/corcuencasbackground.jpg);
+    background-position-x: 50%;
+    background-position-y: 45%;
+    background-size:100vw;
+    background-repeat:no-repeat;
+    border: none;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+h1.back{
+    flex: 0.5;
+    margin-right: 27.5vw;
+    background-color: #3f48cc;
+    color: #fcdde7;
+}
+h1.back:hover{
+    cursor: pointer;
+    color: #f83673;
+    transition: color 0.3s ease;
+}
+h1.next{
+    flex: 0.5;
+    margin-left: 27.5vw;
+    background-color: #3f48cc;
+    color: #fcdde7;
+}
+h1.next:hover{
+    cursor: pointer;
+    color: #f83673;
+    transition: color 0.3s ease;
+}
+#job-description{
+    flex: 1;
+}
+#job-description h2{
+    margin-right: 0vw;
+    margin-bottom: 0vw;
+}
+#job-description > ul{
+    flex:1;
+    width: 40vw;
+    height: 40vw;
+    list-style-type: none;
+    margin:0vw;
+    margin-left: -12.5vw;
+    margin-top: 2.5vw;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#job-description > ul > li{
+    flex: 0.05;
+    width: 25vw;
+    height: 1vw;
+    margin: 0vw 0 0 -3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#job-description > ul > li label{
+    flex:1;
+    display: flex;      
+}
+#job-description ul > li label h2{
+    flex:1;
+    margin-right: 0vw;
+}
+p.job-description{
+    margin-left: 0vw;
+    margin-bottom: -2.5vw;
+}
+#duties{
+    flex:1;
+    width: 30vw;
+    margin: 0vw 0 0 12vw;
+    flex-direction:column;
+    justify-content: space-between;   
+}
+#duties label{
+    flex:1;
+    margin-top: 0vw;
+    margin-left: 1vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#duties h2{
+    flex:1;
+    align-self: center;
+    height: 90%;
+    margin: 0;
+}
+#functions{
+    flex:1;
+    height: 25vw;
+    margin:27.5vw 0 0 0vw;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#functions label{
+    flex:1;
+    margin-left: -2.5vw;
+    margin-right: 0;
+}
+
+#functions li{
+margin: 0vw;
+}
+#functions p{
+    margin-top: -5vw;
+    margin-bottom: 0;
+    margin-left: 0vw;
+    width: 30vw;
+}
+#profile p{
+    margin-top: 0vw;
+}
+#profile > img{
+    width: 35vw;
+    height: 20vw;
+    margin-top: 2vw ;
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+}

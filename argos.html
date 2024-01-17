@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" id="HRMD" class="work-exp">
+    <head>
+        <title>Argos</title>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="./css/myProfile.css">
+        <link rel="stylesheet" href="./css/work-exp.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600;700&family=Kanit:wght@600;800&display=swap" rel="stylesheet">
+
+        <style>
+            #profile ul{
+                font-family: var(--pfont);
+                font-size: 1.25vw;
+                list-style-type: none;
+            }
+            #profile p{
+                margin-top: -5vw;
+                margin-bottom: 0vw;
+            }
+            #profile li::before{
+                content: "- ";
+                color: black;
+                font-weight: bolder;
+                
+            }
+            #img{
+                flex: .25;
+                margin-top: -2.5vw;
+                margin-bottom: 4vw;
+                margin-left: 0vw;
+                margin-right: 2vw;
+                display: flex;
+                margin-left: 0vw;
+                 
+            }
+            img{
+                
+                border-radius: 2vw;
+                width: 45vw;
+               
+        
+            }
+            #bckgrnd{
+                background-image: url(./images/bckgrnd/argos.webp);
+                background-size: 20vw;
+                background-position-y: 95%;
+                background-repeat: no-repeat;
+            }
+            h1.back-to-profile{
+                flex: 0.05;
+                width: 12vw;
+                margin-left: 2vw;
+                margin-right: 25vw;
+                background-color: #3f48cc;
+                color: #fcdde7;
+            }
+            h1.back-to-profile:hover{
+            cursor: pointer;
+            color: #f83673;
+            transition: color 0.3s ease;
+            }
+            #functions li p{
+                margin-bottom: 6vw;
+            
+            }
+
+
+        </style>
+    
+
+    </head>
+    <body>
+        <section class="general-container">
+            <section id="top">
+                <div id="bckgrnd">
+                <h1 class="back">
+                     Back
+                </h1>                       
+                <h1>
+                    Argos Cements
+                </h1>
+                <h1 class="next">
+                    Profile
+                </h1>
+                </div>
+                <div id="info">
+                    <label for="location"><img src="./images/logos/location-logo.png" class="logo"></label>
+                    <p id="location">La Sierra - Puerto Nare, Antioquia, Colombia</p>
+                    <div class="separator"></div>
+                    <label for="contact"><img src="./images/logos/website-logo.jpg" class="logo"></label>
+                    <p id="contact"> <a href="https://argos.co/">Argos' Website</a></p>
+                </div>
+            </section>
+            <hr>
+            <section id="main">
+                <div id="left-side" class="main-div">
+                    
+                    <div id="job-description" class="sub-div">
+                        <label for="job-description"><img src="./images/logos/work-logo.png" class="logo"></label>
+                        <h2>Job Description:</h2>
+                        <ul>
+                            <li>
+                                <label for="position"><h2>Position:</h2></label> 
+                                <p id="position" class="job-description">Intern Production Engineering</p>
+                            </li>
+                            <li>
+                                <label for="location"><h2>Location:</h2></label> 
+                                <p id="location" class="job-description">Medellin, Colombia</p>
+                            </li>
+                            <li>
+                                <label for="start"><h2>Start Date:</h2></label> 
+                                <p id="start" class="job-description">January 15th, 2018</p>
+                            </li>
+                            <li>
+                                <label for="end"><h2>End Date:</h2></label> 
+                                <p id="end" class="job-description">July 15th, 2018</p>
+                            </li>
+                            <li id="duties"> 
+                                <ul id="functions" class="job-description">
+                                    <label for="functions"><h2>Functions:</h2></label>
+                                    <br><br><br><br><br><br>
+                                    <li>
+                                        <p>
+                                            My primary task was to elaborate on the mass and energy balance of 
+                                            the industrial rotary clinker oven. This involved dissecting the 
+                                            scientific model of the oven, identifying parameters and variables, 
+                                            and conducting a meticulous analysis to derive valuable insights. 
+                                            The intricacies of the task required a multidisciplinary approach, 
+                                            necessitating collaboration with various departments.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            In addition to coordination, extensive research was conducted to 
+                                            establish measurement protocols. This step was crucial to ensure 
+                                            the accuracy and reliability of the data collected. Simultaneously, 
+                                            I delved into the scientific model of the oven, meticulously studying 
+                                            its parameters and variables. This holistic approach allowed me to 
+                                            grasp the intricacies of the system and identify potential areas for 
+                                            improvement.
+                                        </p>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>                       
+                    </div>
+                    <h1 class="back-to-profile">
+                       << Profile
+                    </h1>                                       
+                </div>
+                <div class="mainseparator"></div>
+                <div id="rigth-side" class="main-div">
+                    <div id="profile" class="sub-div">
+                        <label for="profile"><img src="./images/logos/profile-logo.png" class="logo"></label>
+                        <h2>Company Overview</h2>
+                        <p>
+                            Cementos Argos is a growing multinational that consolidates its presence in sixteen 
+                            countries and territories with emerging and developed economies. For over eighty years, 
+                            it has been building a history and today stands as the number one cement and concrete company 
+                            in Colombia and one of the most relevant in the United States, the Caribbean, and Central America. 
+                            It has nearly 7,000 employees across its three regions, 11 cement plants, 197 concrete plants, 
+                            7 aggregate plants, 9 clinker mills, 29 ports and terminals, almost 1,700 mixer trucks, over 1,500 
+                            train wagons, and 4 owned ships. Its total installed capacity is 24 million tons of cement. 
+                            In 2022, it exported to 25 destinations.
+                            <br><br>
+                            
+                        </p>
+                        <section id="img">
+                            <img src="./images/work-images/argos.jpg" >
+                            
+                        </section>
+                        
+                    </div>                            
+                </div>
+            </section>
+        </section>
+        <script src="./js/myProfile.js"></script>
+    </body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" id="HRMD" class="work-exp">
+    <head>
+        <title>Solvo Global</title>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="./css/myProfile.css">
+        <link rel="stylesheet" href="./css/work-exp.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600;700&family=Kanit:wght@600;800&display=swap" rel="stylesheet">
+
+        <style>
+            #profile ul{
+                font-family: var(--pfont);
+                font-size: 1.25vw;
+                list-style-type: none;
+            }
+            #profile p{
+                margin-top: -5vw;
+                margin-bottom: 0vw;
+            }
+            #profile li::before{
+                content: "- ";
+                color: black;
+                font-weight: bolder;
+                
+            }
+            #img{
+                flex: .25;
+                margin-top: -2.5vw;
+                margin-bottom: 4vw;
+                margin-left: 0vw;
+                margin-right: 2vw;
+                display: flex;
+                margin-left: 10vw;
+                 
+            }
+            img{
+                flex: 1;
+                border-radius: 2vw;
+                width: 70vw;
+               
+        
+            }
+            #bckgrnd{
+                background-image: url(./images/bckgrnd/solvo.png);
+                background-size: 15vw;
+                background-position-y: 25%;
+            }
+            h1.back-to-profile{
+                flex: 0.05;
+                width: 12vw;
+                margin-left: 2vw;
+                margin-right: 25vw;
+                background-color: #3f48cc;
+                color: #fcdde7;
+            }
+            h1.back-to-profile:hover{
+            cursor: pointer;
+            color: #f83673;
+            transition: color 0.3s ease;
+            }
+            #functions li p{
+                margin-bottom: 6vw;
+            
+            }
+
+
+        </style>
+    
+
+    </head>
+    <body>
+        <section class="general-container">
+            <section id="top">
+                <div id="bckgrnd">
+                <h1 class="back">
+                     Back
+                </h1>                       
+                <h1>
+                    Solvo Global
+                </h1>
+                <h1 class="next">
+                    Next
+                </h1>
+                </div>
+                <div id="info">
+                    <label for="location"><img src="./images/logos/location-logo.png" class="logo"></label>
+                    <p id="location">Cra. 50gg #12 Sur 07, San Fernando, Itagüi, Medellín, Antioquia, Colombia</p>
+                    <div class="separator"></div>
+                    <label for="email"><img src="./images/logos/mail-logo.png" class="logo"></label>
+                    <p id="email"><a href="mailto:info@solvoglobal.com">info@solvoglobal.com</a></p>
+                    <div class="separator"></div>
+                    <label for="contact"><img src="./images/logos/website-logo.jpg" class="logo"></label>
+                    <p id="contact"> <a href="https://solvoglobal.com/">Solvo's Website</a></p>
+                </div>
+            </section>
+            <hr>
+            <section id="main">
+                <div id="left-side" class="main-div">
+                    
+                    <div id="job-description" class="sub-div">
+                        <label for="job-description"><img src="./images/logos/work-logo.png" class="logo"></label>
+                        <h2>Job Description:</h2>
+                        <ul>
+                            <li>
+                                <label for="position"><h2>Position:</h2></label> 
+                                <p id="position" class="job-description">Benefits Specialist</p>
+                            </li>
+                            <li>
+                                <label for="location"><h2>Location:</h2></label> 
+                                <p id="location" class="job-description">Medellin, Colombia</p>
+                            </li>
+                            <li>
+                                <label for="start"><h2>Start Date:</h2></label> 
+                                <p id="start" class="job-description">July 1st, 2020</p>
+                            </li>
+                            <li>
+                                <label for="end"><h2>End Date:</h2></label> 
+                                <p id="end" class="job-description">December 31st, 2020</p>
+                            </li>
+                            <li id="duties"> 
+                                <ul id="functions" class="job-description">
+                                    <label for="functions"><h2>Functions:</h2></label>
+                                    <br><br><br><br>
+                                    <li>
+                                        <p>
+                                            Commencing each day with a commitment to meticulous administration, 
+                                            I guide employees through enrollment processes, ensuring alignment 
+                                            with company policies and regulatory standards. My responsibilities 
+                                            extend to diligent compliance monitoring, ensuring the consistent 
+                                            adherence to legal and regulatory requirements. Upholding the sanctity 
+                                            of sensitive health information, I prioritize data security and leverage 
+                                            analytics to derive insights that inform strategic decision-making and contribute 
+                                            to the production of comprehensive reports.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            My role encompasses the exacting management of financial aspects, 
+                                            encompassing the nuanced processing of claims and the precise calculation 
+                                            and invoicing of premium amounts. I actively nurture relationships with vendors, 
+                                            overseeing contracts to ensure financial stability and transparency. Daily internal 
+                                            audits are undertaken to maintain a vigilant focus on accuracy, compliance, and the 
+                                            overall quality of benefits administration. These measures not only fortify our 
+                                            financial standing but also elevate the caliber of services provided.
+                                        </p>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>                       
+                    </div>
+                    <h1 class="back-to-profile">
+                       << Profile
+                    </h1>                                       
+                </div>
+                <div class="mainseparator"></div>
+                <div id="rigth-side" class="main-div">
+                    <div id="profile" class="sub-div">
+                        <label for="profile"><img src="./images/logos/profile-logo.png" class="logo"></label>
+                        <h2>Company Overview</h2>
+                        <p>
+                            At Solvo, our mission is to provide staffing solutions that increase productivity. 
+                            We adapt to every work environment and bring in positive results. At the same time, 
+                            we reduce operating costs without compromising quality.
+                            <br><br>
+                            Soulvers are passionate, hungry for success and highly motivated. Wouldn't you like 
+                            to join this team? Becoming a Soulver is more than signing a contract. It's building 
+                            valuable relationships that will last for years. Solvo offers you the opportunity to 
+                            build a great career doing work that matters, while being part of a dynamic team. 
+                            If you are professional and bilingual, this is your chance to take your career to 
+                            the next level.
+                            <br><br>
+                        </p>
+                        <section id="img">
+                            <img src="./images/work-images/solvo3.png" >
+                            
+                        </section>
+                        
+                    </div>                            
+                </div>
+            </section>
+        </section>
+        <script src="./js/myProfile.js"></script>
+    </body>
+</html>

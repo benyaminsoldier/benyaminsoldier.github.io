@@ -1,0 +1,91 @@
+#COD,#BOD {
+    color: #3f48cc;
+    
+}
+span.pop-out{
+    position: absolute;  
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 25vw;
+    border: 0.2vw solid black;
+    border-bottom: 0.1vw solid black;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    margin-left: 31.5vw;
+    background-color: #fcdde7;
+    transition: color 0.3s ease;
+    box-sizing: border-box;
+    
+} 
+span.pop-out2{
+    position: absolute;  
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 25vw;
+    border: 0.1vw solid black;
+    border-bottom: 0.2vw solid black;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    margin-left: 37.5vw;
+    background-color: #fcdde7;
+    transition: color 0.3s ease;
+    box-sizing: border-box;
+    
+} 
+
+img.pop-out{
+    flex:2;
+    border-bottom: 0.15vw solid black;
+    
+
+    width: 99.9%;
+    margin-left: 0.0vw;
+    border-top-right-radius: 2vw;
+    box-sizing: border-box;
+    background-image: url("../images/work-images/BOD.jpg");
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-position: center;
+    background-position-y: 35%;
+}
+img.pop-out2{
+    flex:2;
+    border-bottom: 0.15vw solid black;
+    
+
+    width: 99.9%;
+    margin-left: 0.0vw;
+    border-top-right-radius: 2vw;
+    box-sizing: border-box;
+    background-image: url("../images/work-images/cod.jpg");
+    background-repeat: no-repeat;
+    background-size: 22.5vw;
+    background-position: center;
+    background-position-y: 25%;
+
+}
+
+p.pop-out, p.pop-out2{
+    color: black;
+    flex: 1;
+    font-size: 1.1vw;
+    width: 99%;
+    padding: 1vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 0vw;
+    box-sizing: border-box;
+}
+
+
+
+    
