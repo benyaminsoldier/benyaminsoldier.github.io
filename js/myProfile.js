@@ -99,7 +99,7 @@ function enableGallery(){
    
         function changeSrc(){
 
-            var source ='./images/climbing/img'+ numImg + '.PNG';
+            var source ='/./images/climbing/img'+ numImg + '.PNG';
             var currentImage = document.getElementById('mainImg');
             currentImage.src = source;
         } 
